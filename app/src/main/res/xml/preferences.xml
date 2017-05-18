@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Url de acceso"
+        android:key="imedig_url"
+        android:summary="Introduzca url de conexión a IMEDIG"
+        android:defaultValue="http://192.168.1.253">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Tiempo máximo de conexión"
+        android:key="imedig_timeout"
+        android:summary="Introduzca tiempo máximo de espera de conexión a IMEDIG"
+        android:defaultValue="10000"></EditTextPreference>
+
+</PreferenceScreen>
